@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "713155085739",
+    "firebase_url": "https://zamacard-f065f.firebaseio.com",
+    "project_id": "zamacard-f065f",
+    "storage_bucket": "zamacard-f065f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713155085739:android:f5708b77a6fc2317637eee",
+        "android_client_info": {
+          "package_name": "it.dariocast.zamacard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713155085739-7c6eq2s6kvpb5fumupilsh8qdu4hemna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.dariocast.zamacard",
+            "certificate_hash": "e3be9ab4e520ca019af6a360a28b72992c9265ac"
+          }
+        },
+        {
+          "client_id": "713155085739-kcp2082t2man2dfpak4hej1nqefi2pfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArVUSwwM7wrNqFJX2hhP_CdVAKVNMvDag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713155085739-kcp2082t2man2dfpak4hej1nqefi2pfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
