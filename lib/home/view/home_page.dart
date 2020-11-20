@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:qr_flutter/qr_flutter.dart';
 import 'package:zamacard/authentication/authentication.dart';
 import 'package:zamacard/home/home.dart';
 
@@ -35,6 +36,7 @@ class HomePage extends StatelessWidget {
             Text(user.email, style: textTheme.headline6),
             const SizedBox(height: 4.0),
             Text(user.name ?? '', style: textTheme.headline5),
+            QrImage(data: user.name ?? user.email)
           ],
         ),
       ),
